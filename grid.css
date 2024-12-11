@@ -1,0 +1,42 @@
+/* General Grid Container Styling */
+.grid-container {
+    display: grid;
+    gap: 50px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* Part 1: Grid-Step2 Styling */
+.grid-step1 .grid-container {
+    grid-template-areas:
+        'header header header'
+        'menu main right'
+        'menu footer footer';
+}
+
+.grid-step1 .item1 { grid-area: header; }
+.grid-step1 .item2 { grid-area: menu; }
+.grid-step1 .item3 { grid-area: main; }
+.grid-step1 .item4 { grid-area: right; }
+.grid-step1 .item5 { grid-area: footer; }
+
+/* Part 2: Grid2-Step2 Styling */
+.grid-step2 .grid-container {
+    grid-template-areas:
+        'top-row top-row top-row'
+        'left middle right'
+        'left bottom bottom';
+}
+
+.grid-step2 .item1 { grid-area: top-row; }
+.grid-step2 .item2 { grid-area: left; }
+.grid-step2 .item3 { grid-area: middle; }
+.grid-step2 .item4 { grid-area: right; }
+.grid-step2 .item5 { grid-area: bottom; }
