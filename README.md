@@ -1,4 +1,4 @@
-# Multi-Page HTML with Internal vs External Styling Instructions
+# Project 5
 
 ## Part 1: Multiple HTML with Internal Styling vs External Styling  
 
