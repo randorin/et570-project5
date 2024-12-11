@@ -53,7 +53,7 @@
      <a href="Grid2-Step2.html">Please look at my other page</a>
      ```  
    - Repeat for `Grid-Step2-Betsy.html` with a link back to the first page.  
-   <video width="600" controls> <source src="./screenshots/connectionvideo.mkv" type="video/x-matroska">Connection Video with Code + Results</video>
+   [Connection Video with Code + Results](https://drive.google.com/file/d/1nk8fTko8UNKE_cW8IupOTFHwUHfIXp9t/view?usp=drive_link)
 
 ---
 
@@ -61,7 +61,8 @@
 
 6. **Remove the `<style>` section from both files (`Grid-Step1` and `Grid-Step2`).**  
    - Save them as `Grid-Step1.html` and `Grid2-Step1.html`.  
-   <video width="600" controls> <source src="./screenshots/stylesremoved.mkv" type="video/x-matroska">Remove style tag code + results</video>
+   [Remove style tag code + results](https://drive.google.com/file/d/1nw5IA3U5MS7aI6O27bLiwmqWFXJIs7Wi/view?usp=drive_link)
+
 7. **Create a new file called `grid.css`.**  
    - Paste the contents removed from the `<style>` section into this `.css` file.  
    - Save the CSS file as `grid.css`.  
@@ -95,17 +96,19 @@
       <a href="Grid-step2-Betsy.html">Please look at my other page</a>
       ```  
     - Navigate between pages by clicking the link.
-   <video width="600" controls> <source src="./screenshots/import_navigation.mkv" type="video/x-matroska">@import css and edited navigation links</video>
+   [@import css and edited navigation links](https://drive.google.com/file/d/1nqzJUC94PWeDXvoMowVyNWzHoUx3muir/view?usp=drive_link)
+
 ---
 
 ## Part 6: Test Responsiveness  
 
 12. **Make any changes to `grid.css`.**  
     - Verify that the changes are reflected on both pages.  
-   <video width="600" controls> <source src="./screenshots/changingcss.mkv" type="video/x-matroska">Changing one line in grid.css worked for both pages.</video>
+   [Changing one line in grid.css worked for both pages.](https://drive.google.com/file/d/1epWFUxtGktGrT-Sq25PthwTBRoT3ZNwc/view?usp=drive_link)
 
 13. **Increase the width and height of the browser by dragging the corners.**  
     - Observe that the size of all columns adjusts automatically.  
-   <video width="600" controls> <source src="./screenshots/responsive.mkv" type="video/x-matroska">Responsive Design Check</video>
+   [Responsive Design Check](https://drive.google.com/file/d/18vL2eYJBglXFlIlBUFtFyj2qRb4cWA55/view?usp=drive_link)
+
 14. **Answer:** Explain why using external styles with either `<link>` or `@import` ensures consistency and maintainability across pages.
     - Because multiple pages can be linked to the external stylesheet. Once you change something in a stylesheet, that change will affect all linked html pages.
